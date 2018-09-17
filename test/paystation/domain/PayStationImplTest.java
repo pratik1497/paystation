@@ -147,5 +147,13 @@ public class PayStationImplTest {
                 4, ps.readDisplay());
        
     }
+    @Test
+    public void shouldDoNothing()
+            throws IllegalCoinException {
+       
+        assertEquals("Cancel should clear display",
+                "Hello","Hello");
+       
+    }
    
 }
