@@ -155,5 +155,14 @@ public class PayStationImplTest {
                 "Hello","Hello");
        
     }
+     @Test
+    public void shouldDosadaqdwothing()
+            throws IllegalCoinException {
+       
+        assertEquals("Cancel should clear display",
+                "Hello","Hello");
+       
+    }
+    
    
 }
